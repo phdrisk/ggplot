@@ -1,9 +1,9 @@
 # ggplot
 
- ano customer_state n_ativos receita receita_media    churn 
-   <dbl>          <dbl>    <int>   <dbl>         <dbl>    <dbl>
- 1  2017              1       12   3025.          252. 0.00120 
- 2  2017              2       29   6816.          235. 0.00300 
+ ano customer_state n_ativos receita receita_media    churn <br>
+   
+ 1  2017              1       12   3025.          252. 0.00120 <br>
+ 2  2017              2       29   6816.          235. 0.00300 <br>
  3  2017              3        9   2764.          307. 0.000900
  4  2017              4        2   1031.          515. 0.000200
  5  2017              5      134  30991.          231. 0.0137  
