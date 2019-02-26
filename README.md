@@ -20,3 +20,5 @@
       aes(label = round(receita_media)),
       position =  position_stack(vjust = 0.8), vjust = 1, color="#ffffff", size=3
     ) 
+    
+    
