@@ -10,11 +10,11 @@
     2017              6       62  14188.          229. 0.00620 <br>
     2017              7       75  13209.          176. 0.00770 <br>
 
-### cria diversas colunas contendo no eixo x os estados, no y a receita separados por ano
+### cria diversas colunas contendo no eixo x os estados, no y a receita distribuidos por ano
     gplot(ativos, aes(x=customer_state, y=receita_media, fill=ano)) +
-    geom_bar( stat = "identity") + <br>
-     labs(x = "Estado", y = "Numero de Consumidores", title = "Receita Media de Consumidores por Estado") + <br>
-     scale_fill_continuous(name = "Ano", labels = c(2017, 2018), breaks = c(2017, 2018)) + <br>
+    geom_bar( stat = "identity") + <
+     labs(x = "Estado", y = "Numero de Consum", title = "Receita Media de Consum por Estado") +
+     scale_fill_continuous(name = "Ano", labels = c(2017, 2018), breaks = c(2017, 2018)) + 
 ### cria os labes para cada coluna baseado na receita media
     geom_text(
       aes(label = round(receita_media)),
