@@ -15,9 +15,16 @@
     # fill=ano) --> fica um tom de azul
     # fill= as. factor(ano)) --> estabele a quantidade de cores do ano
     ) + 
-    geom_bar( stat = "identity") + <
-     labs(x = "Estado", y = "Numero de Consum", title = "Receita Media de Consum por Estado") +
-     scale_fill_continuous(name = "Ano", labels = c(2017, 2018), breaks = c(2017, 2018)) + 
+    ###### fill = ano 
+    geom_bar( stat = "identity") + 
+      labs(x = "Estado", y = "Numero de Consum", title = "Receita Media de Consum por Estado") +
+      scale_fill_continuous(name = "Ano", labels = c(2017, 2018), breaks = c(2017, 2018)) + 
+    ###### fill = as.factor(ano) 
+    geom_bar( stat = "identity") + 
+      labs(x = "Estado", y = "Numero de Consum", title = "Receita Media de Consum por Estado") +
+      labs(fill="ano")+
+       
+     
 ### cria os labes para cada coluna baseado na receita media
     geom_text(
       aes(label = round(receita_media)),
