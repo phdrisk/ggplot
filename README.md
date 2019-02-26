@@ -31,4 +31,9 @@
       position =  position_stack(vjust = 0.8), vjust = 1, color="#ffffff", size=3
     ) 
     
-    
+### colocar valores na barra
+- https://dataunirio.github.io/GALERIA_DE_GRAFICOS/Barras.html
+- https://italocegatta.github.io/os-graficos-que-explicam-nossos-dados-barras/
+
+### pie
+ - https://plot.ly/r/pie-charts/
